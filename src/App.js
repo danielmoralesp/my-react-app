@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Welcome from './Welcome'
 import axios from 'axios'
+import { Button } from 'react-bootstrap'
 import './App.css';
 
 
@@ -30,6 +31,7 @@ class App extends Component {
     const names = ["Daniel", "Angelica", "Emiliano"]
     return (
       <div>
+        <Button bsStyle="primary">Primary</Button>
         <Welcome name="Daniel" />
         <Welcome name="Angelica" />
           {names.map (name =>

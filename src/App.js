@@ -4,6 +4,8 @@ import axios from 'axios'
 import { Button } from 'react-bootstrap'
 import './App.css';
 
+const Home = () => <h2>Home</h2>;
+const About = () => <h2>About</h2>;
 
 
 class App extends Component {
